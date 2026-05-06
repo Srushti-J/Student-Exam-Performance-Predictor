@@ -51,7 +51,7 @@ Built using **Flask + Scikit-learn**, this project demonstrates an end-to-end ML
 ## Installation & Setup
 
 ### 1. Clone the repository
-git clone https://github.com/Srushti-J/Student-Exam-Performance-Predictor.git⁠ <br>
+git clone https://github.com/Srushti-J/Student-Exam-Performance-Predictor <br>
 cd student-performance-predictor
 ### 2. Create virtual environment
 python -m venv venv
