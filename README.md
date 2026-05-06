@@ -115,9 +115,9 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Your Name  
-GitHub: https://github.com/your-username  
-LinkedIn: Add your profile link  
+Srushti Joshi
+GitHub: https://github.com/Srushti-J  
+
 
 ---
 
