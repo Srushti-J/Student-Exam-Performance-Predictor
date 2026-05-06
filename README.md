@@ -22,7 +22,7 @@ Built using **Flask + Scikit-learn**, this project demonstrates an end-to-end ML
 
 | Input Page | Prediction Result |
 |------------|------------------|
-| ![](screenshots/home.png) | ![](screenshots/result.png) |
+| ![](screenshots/Home.png) | ![](screenshots/result.png) |
 
 ---
 
