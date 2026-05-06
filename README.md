@@ -18,7 +18,7 @@ Built using **Flask + Scikit-learn**, this project demonstrates an end-to-end ML
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Landing Page | Prediction Result |
 |------------|------------------|
@@ -115,7 +115,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Srushti Joshi
+Srushti Joshi <br>
 GitHub: https://github.com/Srushti-J  
 
 
