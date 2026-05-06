@@ -20,7 +20,7 @@ Built using **Flask + Scikit-learn**, this project demonstrates an end-to-end ML
 
 ## 📸 Screenshots
 
-| Input Page | Prediction Result |
+| Landing Page | Prediction Result |
 |------------|------------------|
 | ![](screenshots/Home.png) | ![](screenshots/result.png) |
 
