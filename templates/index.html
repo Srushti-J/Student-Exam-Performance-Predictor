@@ -1,7 +1,114 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <body>
     <h1>Welcome to Home Page</h1>
     <a href="/predictdata">Predict Data</a>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Performance App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #5f2c82, #49a09d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .hero {
+            text-align: center;
+            max-width: 700px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(30px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            padding: 14px 30px;
+            font-size: 18px;
+            border-radius: 30px;
+            border: none;
+            background: #ff7eb3;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #ff4e8a;
+            transform: scale(1.08);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .features {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px 20px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            width: 180px;
+            font-weight: 500;
+            border: 1px solid rgba(255, 126, 179, 0.4);
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1> Student Performance Predictor</h1>
+    <p>
+        Predict your Maths score using Machine Learning based on your academic and personal data.
+    </p>
+
+    <a href="/predictdata" class="btn"> Get Started</a>
+
+    <div class="features">
+        <div class="card"> ML Powered</div>
+        <div class="card"> Fast Prediction</div>
+        <div class="card"> Accurate Results</div>
+    </div>
+</div>
+
 </body>
 </html>
